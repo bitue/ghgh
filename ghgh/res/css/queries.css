@@ -1,0 +1,87 @@
+@media screen and (max-width:1200px){
+    .row{
+        margin: 0 20px;
+    }
+    nav{
+        margin: 0 20px;
+    }
+}
+@media screen and (max-width:1024px){
+    .grid{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px 10px;
+    }
+    .grid-portfoluio{
+        grid-template-columns: 1fr 1fr ;
+    }
+    .portfoluio-item:nth-child(5){
+        grid-column: 1/2;
+    }
+    .portfoluio-item:nth-child(7){
+        grid-column: 1/3;
+        
+    }
+   
+}
+@media screen and (max-width:768px){
+    .grid-template{
+        grid-template-columns: 1fr;
+        text-align: center;
+        
+    }
+    section{
+        padding: 60px 0;
+    }
+    .grid-item img{
+        
+    }
+    .con .dd p{
+        margin: 0 15px;
+    }
+    .sign-up{
+        grid-template-columns: 1fr;
+    }
+    .flex{
+        flex-direction: column;padding: 40px 0;
+    }
+    .left, .right{
+        width: 80%;
+        padding: 20px
+    }
+    .left{
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:480px){
+    html,body{
+        font-size: 8px;
+    }
+    .grid-portfoluio{
+        grid-template-columns: 1fr;
+    }
+    .portfoluio-item:nth-child(7){
+        grid-column: 1/2;
+    }
+    .grid{
+        grid-template-columns: 1fr;
+    }
+    .grid-template{
+        grid-gap: 0px; max-width: 480px;
+    }
+/*
+    .grid-item img{
+        width: 210px;
+    }
+*/
+    section{
+        padding: 25px 0;
+    }
+    .box-content h1{
+        font-size: 500%;
+    }
+    h1::before , h1::after{
+        width: 300px;
+    }
+ 
+
+}
